@@ -193,9 +193,12 @@ header a:hover {
     margin-bottom: 1.5rem;
 }
 
-contact-info {
+.contact-info {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .contact-info a {
@@ -401,9 +404,11 @@ footer {
         margin-bottom: 1.5rem;
     }
 
-    contact-info {
+    .contact-info {
         display: flex;
-        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
     }
 
     .contact-info a {
